@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: wlyuan-gateway
+server:
+ port: 1000
+zuul:
+  routes:
+    test:
+      path: /test/**
+      url: https://www.baidu.com
+#spring.application.name=wlyuan-gateway
+#server.port=1000
+#zuul.routes.test.path=/test/**
+#zuul.routes.test.url=https://www.baidu.com
